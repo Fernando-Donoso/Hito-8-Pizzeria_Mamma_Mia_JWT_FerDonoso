@@ -1,19 +1,15 @@
 <<<<<<< HEAD
-# Hito-7-React-Router-II-Pizzeria_Mamma_Mia_FerDonoso
-# React II
+# https://github.com/Fernando-Donoso/Hito-8-Pizzeria_Mamma_Mia_JWT_FerDonoso
+# JWT
 
 
 =======
 
 
 # Repository Github
-https://github.com/Fernando-Donoso/Hito-7-React-Router-II-Pizzeria_Mamma_Mia_FerDonoso
+https://github.com/Fernando-Donoso/Hito-8-Pizzeria_Mamma_Mia_JWT_FerDonoso
 
 
-
-
-
-# Los Cambios del hito7 React II estan al  carpeta FRONTEND
 
 
 
