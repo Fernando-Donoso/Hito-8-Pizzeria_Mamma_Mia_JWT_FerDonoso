@@ -1,5 +1,20 @@
 import React, { useContext } from "react";
 import { CartContext } from "../contexts/CartContext";
+import napolitana from "../assets/pizza_napolitana.jpg";
+import espanola from "../assets/pizza_espanola.jpg";
+import salame from "../assets/pizza_salame.jpg";
+import cuatro from "../assets/pizza_cuatro.jfif";
+import bacon from "../assets/pizza_bacon.jfif";
+import pollo from "../assets/pizza_pollo.jfif";
+
+const imagenes = {
+  p001: napolitana,
+  p002: espanola,
+  p003: salame,
+  p004: cuatro,
+  p005: bacon,
+  p006: pollo,
+};
 
 const formatPrice = (value) => value.toLocaleString("es-CL");
 
@@ -19,7 +34,12 @@ const CardPizza = ({ pizza }) => {
   return (
     <div style={styles.card}>
       {/* Imagen */}
-      <img src={pizza.img} alt={pizza.name} style={styles.image} />
+      <img
+        src={imagenes[pizza.id]}
+        alt={pizza.name}
+        className="img-fluid rounded"
+      />
+
 
       {/* Contenido */}
       <div style={styles.body}>
